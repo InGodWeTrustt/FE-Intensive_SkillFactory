@@ -12,7 +12,7 @@ const StyledHeader = styled.header`
 export const Header = () => {
     return (
         <StyledHeader>
-            <Container justifyContent="space-between">
+            <Container justifyContent="space-between" maxw="1240px">
                 <Logo />
                 <Menu />
             </Container>

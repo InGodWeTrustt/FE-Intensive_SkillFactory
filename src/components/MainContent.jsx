@@ -7,12 +7,14 @@ import image1 from '../images/image1.jpg'
 
 const Wrapper = styled.div`
     display: flex;
+    justify-content:center;
+    padding: 100px;
  `
 
 export const MainContent = () => {
     return (
         <Wrapper>
-            <Container padding="100px">
+            <Container>
                 <Image src={image1} w="590px" h="450px" alt="Разработано 2000+ приложений" />
                 <BlockInfo />
             </Container>

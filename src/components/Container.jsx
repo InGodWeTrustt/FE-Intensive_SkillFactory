@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const StyledContainer = styled.div`
       display: flex;
-      max-width: ${props => props.maxw || "1240px"};
-      margin: 0;
+      max-width: ${props => props.maxw || 0};
+      margin: ${props => props.margin || 0};
       padding: ${ ({ padding }) => padding || 0 };
       justify-content : ${ ({ justifyContent }) => justifyContent || 'center' };
       align-items: center;
