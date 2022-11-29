@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FE-Intensive_SkillFactory/static/css/main.90f6920e.css",
-    "main.js": "/FE-Intensive_SkillFactory/static/js/main.4e857c65.js",
+    "main.js": "/FE-Intensive_SkillFactory/static/js/main.656eb0eb.js",
     "static/media/image1.jpg": "/FE-Intensive_SkillFactory/static/media/image1.25fa70cc9546556d62f9.jpg",
     "index.html": "/FE-Intensive_SkillFactory/index.html",
     "main.90f6920e.css.map": "/FE-Intensive_SkillFactory/static/css/main.90f6920e.css.map",
-    "main.4e857c65.js.map": "/FE-Intensive_SkillFactory/static/js/main.4e857c65.js.map"
+    "main.656eb0eb.js.map": "/FE-Intensive_SkillFactory/static/js/main.656eb0eb.js.map"
   },
   "entrypoints": [
     "static/css/main.90f6920e.css",
-    "static/js/main.4e857c65.js"
+    "static/js/main.656eb0eb.js"
   ]
 }
