@@ -4,8 +4,8 @@ import { Button } from './UI/Button.jsx'
 
 const Paragraph = styled.p`
         font-weight: ${props => props.weight ? props.weight : 400};
-        font-size: ${props => props.size};
-        line-height: ${props => props.lh};
+        font-size: ${props => props.size || '18px'};
+        line-height: ${props => props.lh || '28px'};
         padding-bottom: 32px;
         margin-top ${props => props.mt || 0};
 `
@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 export const BlockInfo = () => {
     return (
         <Wrapper minw="590px">
-            <Paragraph weight="700" lh="64px" mt="27px">
+            <Paragraph size="54px" weight="700" lh="64px" mt="27px">
                 Разработано 2000+ приложений
             </Paragraph>
             <Paragraph size=".5em" lh="38px">Для вашего удобства мы разработали множество приложений для вашего бизнеса и команды, которые доступны в любое время суток

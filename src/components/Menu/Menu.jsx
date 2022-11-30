@@ -16,4 +16,4 @@ const elements = [
   }
 ]
 
-export const Menu = () => <MenuList data={elements} />
+export const Menu = () => <MenuList data={elements}  />

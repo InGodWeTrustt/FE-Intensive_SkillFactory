@@ -11,4 +11,5 @@ const StyledContainer = styled.div`
       gap: 60px;
 `
 const Container = props => <StyledContainer {...props} />;
+
 export default Container;

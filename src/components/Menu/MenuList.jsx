@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from './UI/Link'
+import { Link } from '../UI/Link'
 
 const StyledMenuList = styled.ul`
             display:flex;
@@ -13,10 +13,12 @@ const StyledMenuList = styled.ul`
 
 
 export const MenuList = ({ data }) => {
+    const sections = ['app', 'features', 'benefits']
     const listElem = data.map(({ el, id }) => {
+     const href = `#${sections.shift()}`
         return (
             <li key={id}>
-                <Link children={el} />
+                <Link children={el} href={href} />
             </li>
         )
     })

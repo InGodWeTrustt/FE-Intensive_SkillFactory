@@ -6,6 +6,8 @@ const StyledImage = styled.img.attrs(({ w, h, src, alt }) => ({
 }))`
     width: ${({ w }) => w || 100};
     height: ${({ h }) => h || 100};
+    margin-right: ${({mr}) => mr || 0};
+    flex-shrink: 0;
 `
 
 const Image = props => <StyledImage {...props}/>

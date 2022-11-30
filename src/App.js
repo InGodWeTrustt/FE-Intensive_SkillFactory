@@ -1,6 +1,8 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components';
-import { Header } from './components/Header';
+import CopyRight from './components/Footer/CopyRight';
+import Footer from './components/Footer/Footer';
+import { Header } from './components/Header/Header';
 import { MainContent } from './components/MainContent';
 
 const Global = createGlobalStyle`
@@ -24,6 +26,9 @@ const App = () => {
       <Global />
       <Header />
       <MainContent />
+      <Footer>
+        <CopyRight text="2000-2022 © System" />
+      </Footer>
     </>
   )
 }
