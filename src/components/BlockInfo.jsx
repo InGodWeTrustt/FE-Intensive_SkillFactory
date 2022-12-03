@@ -7,22 +7,22 @@ const Paragraph = styled.p`
         font-size: ${props => props.size || '18px'};
         line-height: ${props => props.lh || '28px'};
         padding-bottom: 32px;
-        margin-top ${props => props.mt || 0};
+        margin-top: ${props => props.mt || 0};
 `
 
 const Wrapper = styled.div`
     display: block;
     font-size: 54px;
-    min-width: ${ props => props.minw || 0}
+    max-width: ${props => props.maxw || 0}
 `
 
-export const BlockInfo = () => {
+export const BlockInfo = ({ title, description }) => {
     return (
-        <Wrapper minw="590px">
+        <Wrapper maxw="590px">
             <Paragraph size="54px" weight="700" lh="64px" mt="27px">
-                Разработано 2000+ приложений
+                {title}
             </Paragraph>
-            <Paragraph size=".5em" lh="38px">Для вашего удобства мы разработали множество приложений для вашего бизнеса и команды, которые доступны в любое время суток
+            <Paragraph size=".5em" lh="38px">{description}
             </Paragraph>
             <Button primary size="default" padding="16px 32px">
                 Присоединяйтесь

@@ -1,25 +1,30 @@
 import React from 'react'
 import styled from 'styled-components'
-import Container from './Container'
-import { BlockInfo } from './BlockInfo'
-import Image from './UI/Image'
-import image1 from '../images/image1.jpg'
+import Benefits from '../components/Benefits/Benefits'
+import Section from './UI/Section'
+import Slider from './Slider/Slider'
+import Tabs from './Tab/Tabs'
+import { FeaturesList } from './Tab/dataFeatures'
+import { dataSlides } from './Slider/dataSlides'
 
-const WrapperMain = styled.main`
+const Main = styled.main`
     display: flex;
     justify-content:center;
     padding: 100px;
  `
 
-
-
 export const MainContent = () => {
     return (
-        <WrapperMain>
-            <Container>
-                <Image src={image1} w="590px" h="450px" alt="Разработано 2000+ приложений" />
-                <BlockInfo />
-            </Container>
-        </WrapperMain>
+        <Main>
+            <Section>
+                <Slider data={dataSlides}/>
+            </Section>
+            <Section>
+                <Tabs  data={FeaturesList}/>
+            </Section>
+            {/* <Section>
+                <Benefits />
+            </Section> */}
+        </Main>
     )
 }

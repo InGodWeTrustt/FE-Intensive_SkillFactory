@@ -6,13 +6,13 @@ import { Menu } from '../Menu/Menu'
 
 const StyledHeader = styled.header`
     background-color: #424A57;
-    padding: 36px 100px;
+    padding: 50px 0px;
 `
 
 export const Header = () => {
     return (
         <StyledHeader>
-            <Container justifyContent="space-between" maxw="1240px">
+            <Container justifyContent="space-between" maxw="1440px" margin="0 auto">
                 <Logo />
                 <Menu />
             </Container>

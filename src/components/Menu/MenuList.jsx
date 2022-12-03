@@ -11,7 +11,6 @@ const StyledMenuList = styled.ul`
             line-height:44px;
 `
 
-
 export const MenuList = ({ data }) => {
     const sections = ['app', 'features', 'benefits']
     const listElem = data.map(({ el, id }) => {
