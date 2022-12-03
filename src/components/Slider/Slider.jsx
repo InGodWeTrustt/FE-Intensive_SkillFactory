@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import styled from 'styled-components'
 import { BlockInfo } from '../BlockInfo'
 import Container from '../Container'
 import Image from '../UI/Image'
 import Dot from './Dot'
-
 
 const Slider = ({ data }) => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);

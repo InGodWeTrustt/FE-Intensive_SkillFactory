@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import CopyRight from './CopyRight'
+import { Social } from './Social'
 
 const Wrapper = styled.footer`
         padding: 47px 0;
@@ -8,14 +10,19 @@ const Wrapper = styled.footer`
 
 const FooterContainer = styled.div`
         display: flex;
-        justify-content: center;
+        max-width: 1240px;
+        margin: 0 auto;
+        justify-content: space-between;
         align-items:center;
 `
 
-const Footer = props => {
+const Footer = () => {
     return (
         <Wrapper>
-            <FooterContainer {...props}/>
+            <FooterContainer>
+                <CopyRight text="2000-2022 © System" />
+                <Social/>
+            </FooterContainer>
         </Wrapper>
     )
 }

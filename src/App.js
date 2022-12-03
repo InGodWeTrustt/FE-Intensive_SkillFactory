@@ -26,9 +26,7 @@ const App = () => {
       <Global />
       <Header />
       <MainContent />
-      <Footer>
-        <CopyRight text="2000-2022 © System" />
-      </Footer>
+      <Footer/>
     </>
   )
 }

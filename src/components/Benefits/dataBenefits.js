@@ -1,4 +1,4 @@
-import benefits1 from '../../images/benefits_1.jpg'
+import benefits1 from '../../images/benefits_1.png'
 import benefits2 from '../../images/benefits_2.jpg'
 import benefits3 from '../../images/benefits_3.jpg'
 
