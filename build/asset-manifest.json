@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/FE-Intensive_SkillFactory/static/css/main.90f6920e.css",
-    "main.js": "/FE-Intensive_SkillFactory/static/js/main.656eb0eb.js",
-    "static/media/image1.jpg": "/FE-Intensive_SkillFactory/static/media/image1.25fa70cc9546556d62f9.jpg",
+    "main.js": "/FE-Intensive_SkillFactory/static/js/main.c3eb0eeb.js",
+    "static/media/slide_1.jpg": "/FE-Intensive_SkillFactory/static/media/slide_1.25fa70cc9546556d62f9.jpg",
+    "static/media/slide_3.jpg": "/FE-Intensive_SkillFactory/static/media/slide_3.36f78b9327aa3cf13e2e.jpg",
+    "static/media/benefits_1.png": "/FE-Intensive_SkillFactory/static/media/benefits_1.a2cf032118b006fd8a29.png",
+    "static/media/slide_2.jpg": "/FE-Intensive_SkillFactory/static/media/slide_2.4236bca390e26282b188.jpg",
+    "static/media/benefits_3.jpg": "/FE-Intensive_SkillFactory/static/media/benefits_3.19d0fe364d93bcec9753.jpg",
+    "static/media/benefits_2.jpg": "/FE-Intensive_SkillFactory/static/media/benefits_2.e2fe588ba7c6df12099b.jpg",
     "index.html": "/FE-Intensive_SkillFactory/index.html",
+    "static/media/checkmark.svg": "/FE-Intensive_SkillFactory/static/media/checkmark.073363963634fff949b45e2d3b3586d6.svg",
     "main.90f6920e.css.map": "/FE-Intensive_SkillFactory/static/css/main.90f6920e.css.map",
-    "main.656eb0eb.js.map": "/FE-Intensive_SkillFactory/static/js/main.656eb0eb.js.map"
+    "main.c3eb0eeb.js.map": "/FE-Intensive_SkillFactory/static/js/main.c3eb0eeb.js.map"
   },
   "entrypoints": [
     "static/css/main.90f6920e.css",
-    "static/js/main.656eb0eb.js"
+    "static/js/main.c3eb0eeb.js"
   ]
 }
