@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Container from '../Container'
+import Section from '../UI/Section'
 import BenefitsItem from './BenefitsItem'
 
 const StyledBenefits = styled.div`
@@ -21,12 +23,16 @@ const StyledTitle = styled.h3`
 
 const Benefits = ({ data }) => {
   return (
-    <StyledBenefits>
-      <StyledTitle children={'Преимущества'}/>
-      <StyledBenefitsList>
-        {data.map(elem => <BenefitsItem key={elem.id} {...elem}/>)}
-      </StyledBenefitsList>
-    </StyledBenefits>
+    <Section>
+      <Container>
+        <StyledBenefits>
+          <StyledTitle children={'Преимущества'} />
+          <StyledBenefitsList>
+            {data.map(elem => <BenefitsItem key={elem.id} {...elem} />)}
+          </StyledBenefitsList>
+        </StyledBenefits>
+      </Container>
+    </Section>
   )
 }
 

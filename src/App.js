@@ -1,6 +1,5 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components';
-import CopyRight from './components/Footer/CopyRight';
 import Footer from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { MainContent } from './components/MainContent';

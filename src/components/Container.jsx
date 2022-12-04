@@ -4,12 +4,14 @@ import styled from "styled-components";
 const StyledContainer = styled.div`
       display: flex;
       flex-wrap: wrap;
-      max-width: ${props => props.maxw || 0};
-      margin: ${props => props.margin || 0};
-      padding: ${ ({ padding }) => padding || 0 };
-      justify-content : ${ ({ justifyContent }) => justifyContent || 'center' };
+      justify-content: space-between;
+      width: 100%;
+      max-width: ${props => props.maxw || "1440px"};
+      padding: ${ ({ padding }) => padding || '0 100px' };
+      margin: ${props => props.margin || '0 auto'};
+      ${'' /* justify-content : ${ ({ justifyContent }) => justifyContent || 'center' };   */}
       align-items: center;
-      gap: 60px;
+      gap: ${({gap}) => gap || 0}
 `
 const Container = props => <StyledContainer {...props} />;
 
